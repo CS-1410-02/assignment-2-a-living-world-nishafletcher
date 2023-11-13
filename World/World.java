@@ -1,11 +1,11 @@
 package World;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class World{
 
 public static void main(String[] args) {
-    
 
     Blue blue = new Blue();
 
@@ -16,13 +16,25 @@ public static void main(String[] args) {
     Food food = new Food();
 
     
+    
+    ArrayList<Red> Reds = new ArrayList<>();
+
+    ArrayList<Blue> Blues = new ArrayList<>();
+
+    ArrayList<Yellow> Yellows = new ArrayList<>();
+
+    while(true){
+
+
+    }
+
+
+    
+
 
 
 }
 
-public static void reproduce(){
-
-}
 
 
 }
